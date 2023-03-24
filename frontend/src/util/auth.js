@@ -16,6 +16,6 @@ export function checkAuthLoader() {
   if (!token) {
     return redirect('/auth');
   }
- 
+  
   return null; // this is missing in the next lecture video and should be added by you
 }
